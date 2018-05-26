@@ -1,0 +1,333 @@
+/* html rules
+--------------------*/
+
+/* id rules
+--------------------*/
+/*
+#sheet{
+    position:relative;
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+*/
+
+/*
+section{
+	min-width: 950px;
+	margin: 0 auto;
+}
+*/
+
+body{
+	font-family: sans-serif;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+#character_sheet{
+    width: 950px;
+    height: auto;
+	display: block;
+}
+
+
+/*
+Character 1
+*/
+
+#name{
+    position: absolute;
+    top: 35px;
+    left: 45px;
+}
+
+#profession{
+    position: absolute;
+    top: 127px;
+    left: 240px;
+	font-size: 1.2em;
+}
+
+
+
+#languageGroup{
+    position: absolute;
+    top: 780px;
+    left: 75px;
+    font-size: 0.75em;
+    width: 210px;
+}
+
+#strength{
+    position:absolute;
+    top: 485px;
+    left: 200px;
+	font-size: 1.8em;
+}
+
+#strengthMod{
+    position:absolute;
+    top: 485px;
+    left: 275px;
+	font-size: 1.8em;
+}
+
+
+#agility{
+    position:absolute;
+    top: 530px;
+    left: 200px;
+	font-size: 1.8em;
+}
+
+#agilityMod{
+    position:absolute;
+    top: 530px;
+    left: 275px;
+	font-size: 1.8em;
+}
+
+
+#stamina{
+    position:absolute;
+    top: 570px;
+    left: 200px;
+	font-size: 1.8em;
+}
+
+#staminaMod{
+    position:absolute;
+    top: 570px;
+    left: 275px;
+	font-size: 1.8em;
+}
+
+
+#personality{
+    position:absolute;
+    top: 615px;
+    left: 200px;
+	font-size: 1.8em;
+}
+
+#personalityMod{
+    position:absolute;
+    top: 615px;
+    left: 275px;
+	font-size: 1.8em;
+}
+
+
+#intelligence{
+    position:absolute;
+    top: 660px;
+    left: 200px;
+	font-size: 1.8em;
+}
+
+#intelligenceMod{
+    position:absolute;
+    top: 660px;
+    left: 275px;
+	font-size: 1.8em;
+}
+
+
+
+#luck{
+    position:absolute;
+    top: 705px;
+    left: 200px;
+	font-size: 1.8em;
+}
+
+#luckMod{
+    position:absolute;
+    top: 705px;
+    left: 275px;
+	font-size: 1.8em;
+}
+
+
+
+#baseAC{
+	position: absolute;
+    top: 310px;
+    left: 145px;
+	font-size: 1.7em;
+}
+
+
+#level{
+	position: absolute;
+    top: 230px;
+    left: 80px;
+	font-size: 1.5em;
+}
+
+
+#title{
+	position: absolute;
+    top: 235px;
+    left: 145px;
+	font-size: 1.2em;
+}
+
+
+
+#birthAugur{
+    position: absolute;
+    top: 215px;
+    left:  400px;
+	width: 240px;
+	font-size: 0.9em;
+}
+
+
+
+#hitPoints{
+	position: absolute;
+    top: 415px;
+    left: 270px;
+	font-size: 1.6em;
+}
+
+
+#actionDice{
+    position: absolute;
+    top: 516px;
+    left: 625px;
+	font-size: 1.2em;
+}
+
+
+
+
+#init{
+    position: absolute;
+    top: 485px;
+    left:  510px;
+	font-size: 1.8em;
+}
+
+#ref{
+    position: absolute;
+    top: 525px;
+    left:  510px;
+	font-size: 1.8em;
+}
+
+#fort{
+    position: absolute;
+    top: 568px;
+    left:  510px;
+	font-size: 1.8em;
+}
+
+#will{
+    position: absolute;
+    top: 610px;
+    left:  510px;
+	font-size: 1.8em;
+}
+
+
+#speed{
+    position: absolute;
+    top: 706px;
+    left:  510px;
+	font-size: 1.6em;
+}
+
+
+
+#fumbleDie{
+    position: absolute;
+    top: 785px;
+    left: 495px;
+	font-size: 1.2em;
+}
+
+
+#roverSkills{
+    position: absolute;
+    top: 855px;
+    left: 480px;
+	font-size: 2em;
+}
+
+
+#melee{
+    position: absolute;
+    top: 365px;
+    left:  520px;
+	font-size: 1.6em;
+}
+
+
+#range{
+    position: absolute;
+    top: 407px;
+    left:  520px;
+	font-size: 1.6em;
+}
+
+
+#meleeDamage{
+    position: absolute;
+    top: 365px;
+    left:  595px;
+	font-size: 1.6em;
+}
+
+
+#rangeDamage{
+    position: absolute;
+    top: 407px;
+    left:  595px;
+	font-size: 1.6em;
+}
+
+
+#critDie{
+    position: absolute;
+    top: 335px;
+    left:  215px;
+	font-size: 1.1em;
+}
+
+#critTable{
+    position: absolute;
+    top: 330px;
+    left:  310px;
+	font-family: serif;
+	font-size: 1.5em;
+}
+
+
+
+
+#artifactCheck{
+    position: absolute;
+    top: 860PX;
+    left:  65px;
+    font-size: 1.3em;
+}
+
+#maxTech{
+    position: absolute;
+    top: 865px;
+    left:  200px;
+    font-size: 1.6em;
+}
+
+
+#dieRollMethod{
+    position: absolute;
+    top: 1180px;
+    left:  60px;
+	font-size: 0.5em;
+}
+
+

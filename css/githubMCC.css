@@ -1,0 +1,393 @@
+body{
+	background-color: #303030;
+	font-size: 1.2em;
+	font-family: arial,verdana, helvetica,sans-serif;
+}
+
+
+section {
+	position: relative;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+aside {
+	position: relative;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 75px;
+}
+
+article {
+	position: relative;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 60px;
+}
+
+
+p{
+	color: #ffffff;
+}
+
+
+/*ID
+*/
+
+
+
+/*
+Class
+*/
+
+.image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	max-width: 100%;
+	height:auto;
+}
+
+
+
+.dropdownmenu2 {
+	font-size: 0.9em;
+	font-family: arial,verdana, helvetica,sans-serif;
+	font-weight: bold;
+	color: black;
+	margin-right: 20px;
+}
+
+.generatorbuttons {
+	margin: 10px;
+}
+	
+
+
+.footnote{
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+
+.image_text {
+	max-width: 100%;
+	height:auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+
+
+.content6 {
+    width: 420px;
+    margin-left: 60px;
+}
+
+
+.content7 {
+    width: 400px;
+    margin: 0px auto;
+}
+
+.content8 {
+    width: 500px;
+    margin: 0px auto;
+}
+
+.content9 {
+    width: 500px;
+    margin: 0px auto;
+}
+
+
+
+.dropdownmenu6 {
+	font-size: 0.9em;
+	font-family: arial,verdana, helvetica,sans-serif;
+	font-weight: bold;
+	color: black;
+	margin-left: 20px;
+}
+
+
+.dropdownmenuA1 {
+	font-size: 0.9em;
+	font-family: arial,verdana, helvetica,sans-serif;
+	font-weight: bold;
+	color: black;
+	margin-left: 155px;
+    margin-right: 30px;
+}
+
+
+.dropdownmenuB1 {
+	font-size: 0.9em;
+	font-family: arial,verdana, helvetica,sans-serif;
+	font-weight: bold;
+	color: black;
+	margin-left: 200px;
+    margin-right: 30px;
+}
+
+.dropdownmenuC1 {
+	font-size: 0.9em;
+	font-family: arial,verdana, helvetica,sans-serif;
+	font-weight: bold;
+	color: black;
+	margin-left: 140px;
+    margin-right: 30px;
+}
+
+
+.dropdownmenuC1a {
+	font-size: 0.8em;
+	font-family: arial,verdana, helvetica,sans-serif;
+	font-weight: bold;
+	color: black;
+	margin-left: 65px;
+    margin-right: 20px;
+}
+
+.dropdownmenuD1 {
+	font-size: 0.8em;
+	font-family: arial,verdana, helvetica,sans-serif;
+	font-weight: bold;
+	color: black;
+	margin-left: 103px;
+    margin-right: 20px;
+}
+
+.dropdownmenuE1 {
+	font-size: 0.8em;
+	font-family: arial,verdana, helvetica,sans-serif;
+	font-weight: bold;
+	color: black;
+	margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+.dropdownmenuF1 {
+	font-size: 0.8em;
+	font-family: arial,verdana, helvetica,sans-serif;
+	font-weight: bold;
+	color: black;
+	margin-left: 0px;
+    margin-right: 20px;
+}
+
+
+.generatorButtonA1 {
+	margin-top: 30px;
+	/*display: inline-block;*/
+	margin-left: 50px;
+	margin-right: 0px;
+}
+
+.generatorButtonA2 {
+	margin-top: 30px;
+	/*display: inline-block;*/
+	margin-left: 115px;
+	margin-right: 0px;
+}
+
+
+
+.generatorbuttonsB1 {
+	margin-left: 60px;
+}
+	
+
+.formIputDescription{
+	color: #ffffff;
+    font-weight: bold;
+    margin-left: 80px;
+}
+
+.formIputDescription2{
+	color: #ffffff;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.formIputDescription3{
+	color: #ffffff;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+
+.formIputDescription4{
+	color: #ffffff;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+.formIputDescription5{
+	color: #ffffff;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.formIputDescription6{
+	color: #ffffff;
+    font-size: 0.8em;
+    margin-left: 50px;
+    margin-right: 5px;
+}
+
+
+.formIputDescription7{
+	color: #ffffff;
+    font-size: 0.8em;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.formIputDescription8{
+	color: #ffffff;
+    font-weight: bold;
+    margin-right: 45px;
+    margin-left: 80px;
+}
+
+.nameBox{
+    float: right;
+    width: 200px;
+    margin-right: 20px;
+}
+
+
+.weaponNameBox{
+    /*float: right;*/
+    width: 200px;
+}
+
+
+.armourNameBox{
+    /*float: right;*/
+    width: 200px;
+}
+
+.alignmentBox{
+    float: right;
+    width: 200px;
+    margin-right: 20px;
+    font-size: 0.85em;
+}
+
+
+.arifactBox{
+    width: 250px;
+    font-size: 0.85em;
+}
+
+
+.weaponsDamageBox{
+    width: 70px;
+    margin-left: 0px;
+    font-size: 0.85em;
+}
+
+.armourProtectionBox{
+    width: 60px;
+    margin-left: 0px;
+    font-size: 0.85em;
+}
+
+.armourCheckPen{
+    width: 50px;
+    margin-left: 0px;
+    font-size: 0.75em;
+}
+
+#char_sheet_buttonA1 {
+    width:300px;
+    height:50px;
+	display: block;
+	background-image: url(../images/buttons/character_button_a1.png);
+	background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 60px;
+    
+}
+
+#char_sheet_buttonA1:hover{
+	background-image: url(../images/buttons/character_button_a2.png);
+	background-repeat: no-repeat;
+}
+
+
+#char_sheet_buttonA2 {
+    width:300px;
+    height:50px;
+	display: block;
+	background-image: url(../images/buttons/character_button_b1.png);
+	background-repeat: no-repeat;
+    margin-left: 150px;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+
+#char_sheet_buttonA2:hover{
+	background-image: url(../images/buttons/character_button_b2.png);
+	background-repeat: no-repeat;
+}
+
+
+
+
+#reset_generator1{
+	background-image: url(../images/reset_button.png);
+
+}
+
+#reset_generator1:hover{
+	background-image: url(../images/reset_button2.png);
+
+}
+
+
+#reset_generator2{
+	background-image: url(../images/reset_button.png);
+    width:160px;
+    height: 60px;
+}
+
+#reset_generator2:hover{
+	background-image: url(../images/reset_button2.png);
+
+}
+
+
+
+#generate_characters2 {
+	background-image: url(../images/character_button.png);
+    
+    width:160px;
+    height: 60px;
+
+}
+
+#generate_characters2:hover {
+	background-image: url(../images/character_button2.png);
+
+}
+
+#equipmentTreasureBox{
+    margin-left: 84px;
+    margin-top: 8px;
+}
+
+

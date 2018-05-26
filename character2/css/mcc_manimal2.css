@@ -1,0 +1,623 @@
+/* html rules
+--------------------*/
+
+/* id rules
+--------------------*/
+/*
+#sheet{
+    position:relative;
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+*/
+
+/*
+section{
+	min-width: 950px;
+	margin: 0 auto;
+}
+*/
+
+body{
+	font-family: sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+#character_sheet{
+    width: 950px;
+    height: auto;
+	display: block;
+}
+
+
+/*
+Character
+*/
+
+#name{
+    position: absolute;
+    top: 35px;
+    left: 45px;
+}
+
+
+#profession{
+    position: absolute;
+    top: 128px;
+    left: 550px;
+	font-size: 1.2em;
+}
+
+
+
+#languageGroup{
+    position: absolute;
+    top: 525px;
+    left: 280px;
+    font-size: 0.8em;
+    width: 175px;
+}
+
+
+#strength{
+    position:absolute;
+    top: 320px;
+    left: 130px;
+	font-size: 1.8em;
+}
+
+#strengthMod{
+    position:absolute;
+    top: 320px;
+    left: 200px;
+	font-size: 1.8em;
+}
+
+#agility{
+    position:absolute;
+    top: 357px;
+    left: 130px;
+	font-size: 1.8em;
+}
+
+#agilityMod{
+    position:absolute;
+    top: 357px;
+    left: 200px;
+	font-size: 1.8em;
+}
+
+
+
+#stamina{
+    position:absolute;
+    top: 394px;
+    left: 130px;
+	font-size: 1.8em;
+}
+
+#staminaMod{
+    position:absolute;
+    top: 394px;
+    left: 200px;
+	font-size: 1.8em;
+}
+
+
+#personality{
+    position:absolute;
+    top: 431px;
+    left: 130px;
+	font-size: 1.8em;
+}
+
+#personalityMod{
+    position:absolute;
+    top: 431px;
+    left: 200px;
+	font-size: 1.8em;
+}
+
+
+#intelligence{
+    position:absolute;
+    top: 469px;
+    left: 130px;
+	font-size: 1.8em;
+}
+
+#intelligenceMod{
+    position:absolute;
+    top: 469px;
+    left: 200px;
+	font-size: 1.8em;
+}
+
+
+#luck{
+    position:absolute;
+    top: 508px;
+    left: 130px;
+	font-size: 1.8em;
+}
+
+#luckMod{
+    position:absolute;
+    top: 508px;
+    left: 200px;
+	font-size: 1.8em;
+}
+
+
+
+
+#baseAC{
+	position: absolute;
+    top: 245px;
+    left: 105px;
+	font-size: 1.7em;
+}
+
+
+
+#level{
+	position: absolute;
+    top: 175px;
+    left: 50px;
+	font-size: 1.2em;
+}
+
+
+#title{
+	position: absolute;
+    top: 175px;
+    left: 125px;
+	font-size: 1.2em;
+}
+
+
+#birthAugur{
+    position: absolute;
+    top: 230px;
+    left:  290px;
+	width: 180px;
+	font-size: 0.8em;
+}
+
+
+#hitPoints{
+	position: absolute;
+    top: 245px;
+    left: 235px;
+	font-size: 1.4em;
+}
+
+#actionDiceGroup{
+    position: absolute;
+    top: 175px;
+    left: 380px;
+	font-size: 1.2em;
+}
+
+
+#critDie{
+    position: absolute;
+    top: 175px;
+    left:  550px;
+	font-size: 1.2em;
+}
+
+#critTable{
+    position: absolute;
+    top: 175px;
+    left:  640px;
+	font-family: serif;
+	font-size: 1.3em;
+}
+
+
+
+#init{
+    position: absolute;
+    top: 230px;
+    left:  585px;
+	font-size: 1.5em;
+}
+
+#ref{
+    position: absolute;
+    top: 265px;
+    left:  585px;
+	font-size: 1.5em;
+}
+
+
+#fort{
+    position: absolute;
+    top: 300px;
+    left:  585px;
+	font-size: 1.5em;
+}
+
+#will{
+    position: absolute;
+    top: 335px;
+    left:  585px;
+	font-size: 1.5em;
+}
+
+
+
+#speed{
+    position: absolute;
+    top: 423px;
+    left:  420px;
+	font-size: 1.5em;
+}
+
+
+
+#fumbleDie{
+    position: absolute;
+    top: 460px;
+    left: 418px;
+	font-size: 1em;
+}
+
+
+#melee{
+    position: absolute;
+    top: 338px;
+    left:  366px;
+	font-size: 1.6em;
+}
+
+
+#meleeDamage{
+    position: absolute;
+    top: 338px;
+    left:  420px;
+	font-size: 1.6em;
+}
+
+
+#range{
+    position: absolute;
+    top: 368px;
+    left:  366px;
+	font-size: 1.6em;
+}
+
+
+
+#rangeDamage{
+    position: absolute;
+    top: 368px;
+    left:  420px;
+	font-size: 1.6em;
+}
+
+
+
+#artifactCheck{
+    position: absolute;
+    top: 175px;
+    left:  765px;
+    font-size: 1.3em;
+}
+
+#maxTech{
+    position: absolute;
+    top: 175px;
+    left:  890px;
+    font-size: 1.3em;
+}
+
+
+#mutantAppearance{
+    position: absolute;
+    top: 587px;
+    left:  280px;
+	width: 180px;
+	font-size: 0.8em;
+}
+
+#dieRollMethod{
+    position: absolute;
+    top: 1218px;
+    left:  25px;
+	font-size: 0.6em;
+}
+
+
+#physicalMutation0{
+    position: absolute;
+    top: 670px;
+    left:  100px;
+	font-size: 0.8em;
+}
+
+
+#physicalMutationType0{
+    position: absolute;
+    top: 670px;
+    left:  370px;
+	font-size: 0.8em;
+}
+
+
+#physicalMutationManifest0{
+    position: absolute;
+    top: 700px;
+    left:  35px;
+	font-size: 0.7em;
+    width: 445px;
+}
+
+
+#physicalMutationEffect0{
+    position: absolute;
+    top: 753px;
+    left:  35px;
+	font-size: 0.7em;
+    width: 445px;
+}
+
+
+#physicalMutation1{
+    position: absolute;
+    top: 794px;
+    left:  100px;
+	font-size: 0.8em;
+}
+
+
+#physicalMutationType1{
+    position: absolute;
+    top: 794px;
+    left:  370px;
+	font-size: 0.8em;
+}
+
+
+#physicalMutationManifest1{
+    position: absolute;
+    top: 827px;
+    left:  35px;
+	font-size: 0.7em;
+    width: 445px;
+}
+
+
+#physicalMutationEffect1{
+    position: absolute;
+    top: 877px;
+    left:  35px;
+	font-size: 0.7em;
+    width: 445px;
+}
+
+
+#physicalMutation2{
+    position: absolute;
+    top: 919px;
+    left:  100px;
+	font-size: 0.8em;
+}
+
+
+#physicalMutationType2{
+    position: absolute;
+    top: 919px;
+    left:  370px;
+	font-size: 0.8em;
+}
+
+
+#physicalMutationManifest2{
+    position: absolute;
+    top: 950px;
+    left:  35px;
+	font-size: 0.7em;
+    width: 445px;
+}
+
+
+#physicalMutationEffect2{
+    position: absolute;
+    position: absolute;
+    top: 1000px;
+    left:  35px;
+	font-size: 0.7em;
+    width: 445px;
+}
+
+
+#physicalMutation3{
+    position: absolute;
+    top: 1042px;
+    left:  100px;
+	font-size: 0.8em;
+}
+
+
+#physicalMutationType3{
+    position: absolute;
+    top: 1042px;
+    left:  370px;
+	font-size: 0.8em;
+}
+
+
+#physicalMutationManifest3{
+    position: absolute;
+    top: 1075px;
+    left:  35px;
+	font-size: 0.7em;
+    width: 445px;
+}
+
+
+#physicalMutationEffect3{
+    position: absolute;
+    position: absolute;
+    top: 1125px;
+    left:  35px;
+	font-size: 0.7em;
+    width: 445px;
+}
+
+
+#mentalMutation0{
+    position: absolute;
+    top: 670px;
+    left:  565px;
+	font-size: 0.8em;
+}
+
+
+#mentalMutationType0{
+    position: absolute;
+    top: 670px;
+    left:  830px;
+	font-size: 0.8em;
+}
+
+
+#mentalMutationManifest0{
+    position: absolute;
+    top: 700px;
+    left:  490px;
+	font-size: 0.7em;
+    width: 445px;
+}
+
+
+#mentalMutationEffect0{
+    position: absolute;
+    top: 753px;
+    left:  490px;
+	font-size: 0.7em;
+    width: 445px;
+}
+
+
+#mentalMutation1{
+    position: absolute;
+    top: 794px;
+    left:  565px;
+	font-size: 0.8em;
+}
+
+
+#mentalMutationType1{
+    position: absolute;
+    top: 794px;
+    left:  830px;
+	font-size: 0.8em;
+}
+
+
+#mentalMutationManifest1{
+    position: absolute;
+    top: 827px;
+    left:  490px;
+	font-size: 0.7em;
+    width: 445px;
+}
+
+
+#mentalMutationEffect1{
+    position: absolute;
+    top: 877px;
+    left:  490px;
+	font-size: 0.7em;
+    width: 445px;
+}
+
+
+#mentalMutation2{
+    position: absolute;
+    top: 918px;
+    left:  565px;
+	font-size: 0.8em;
+}
+
+
+#mentalMutationType2{
+    position: absolute;
+    top: 918px;
+    left:  830px;
+	font-size: 0.8em;
+}
+
+
+#mentalMutationManifest2{
+    position: absolute;
+    top: 950px;
+    left:  490px;
+	font-size: 0.7em;
+    width: 445px;
+}
+
+
+#mentalMutationEffect2{
+    position: absolute;
+    top: 1000px;
+    left:  490px;
+	font-size: 0.7em;
+    width: 445px;
+}
+
+
+#defect0{
+    position: absolute;
+    top: 1042px;
+    left:  550px;
+	font-size: 0.8em;
+}
+
+
+#defectType0{
+    position: absolute;
+    top: 1042px;
+    left:  830px;
+	font-size: 0.8em;
+}
+
+
+#defectEffect0{
+    position: absolute;
+    top: 1073px;
+    left:  490px;
+	font-size: 0.7em;
+    width: 445px;
+}
+
+
+#defect1{
+    position: absolute;
+    top: 1104px;
+    left:  550px;
+	font-size: 0.8em;
+}
+
+
+#defectType1{
+    position: absolute;
+    top: 1104px;
+    left:  830px;
+	font-size: 0.8em;
+}
+
+
+#defectEffect1{
+    position: absolute;
+    top: 1135px;
+    left:  490px;
+	font-size: 0.7em;
+    width: 445px;
+}
+
