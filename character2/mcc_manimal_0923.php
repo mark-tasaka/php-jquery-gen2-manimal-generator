@@ -1083,7 +1083,7 @@ function getPhysicalMutation(){
                   ["The manimal has 2 extra arms and gains a d16 additional action die for melee attacks only.",
                         function(obj) { obj["actionDice16"] += 1;}], 
                   ["The manimal has 2 extra legs and gains an additional 20’ to movement.",
-                        function(obj) { obj["speed"] += 20; obj["modifiedSpeed"] +=20; obj["modifiedSpeed"] +=20;}],
+                        function(obj) { obj["speed"] += 20; obj["modifiedSpeed"] +=20;}],
                   ["The manimal has 2 extra arms and gains a d20 additional action die for melee attacks only.",
                         function(obj) { obj["actionDice20"] += 1;}], 
                   ["The manimal has 2 extra arms and gains a d20 additional action die for melee attacks only; manimal also has 2 extra legs and gains + 30’ to movement.",
@@ -1112,7 +1112,7 @@ function getPhysicalMutation(){
                   ["The manimal is able to extend arms and legs 15’ and may engage in melee at that range; gains additional 15’ to movement. ",
                         function(obj) { obj["speed"] += 15; obj["modifiedSpeed"] +=15;}], 
                   ["The manimal is able to extend arms and legs 20’ and may engage in melee at that range; gains additional 20’ to movement; gains -1 to blunt force damage.",
-                        function(obj) { obj["speed"] += 20; obj["modifiedSpeed"] +=20; obj["modifiedSpeed"] +=20;}], 
+                        function(obj) { obj["speed"] += 20; obj["modifiedSpeed"] +=20;}], 
                   ["The manimal is able to extend arms and legs 30’ and may engage in melee at that range; gains additional 30’ to movement; gains -1d3 to blunt force damage.",
                         function(obj) { obj["speed"] += 30; obj["modifiedSpeed"] +=30;}], 
                   ["The manimal is able to extend entire body 40’ and may engage in melee at that range; gains additional 40’ to movement; gains -1d6 to any blunt force dmg.",
@@ -1167,7 +1167,7 @@ function getPhysicalMutation(){
                   
                   ["The manimal towers over others at approximately 10’ in height; manimal gains +5 to Strength, AC  -4, movement speed is 50’, and HD changes to d10.", function(obj) {
                       hitPointsEachLevelLimit = 10; 
-                      obj["acBonus"] -= 4; obj["strength"] += 5; obj["speed"] += 20; obj["modifiedSpeed"] +=20; obj["modifiedSpeed"] +=20;
+                      obj["acBonus"] -= 4; obj["strength"] += 5; obj["speed"] += 20; obj["modifiedSpeed"] +=20;
                       //obj["hitPoints"] = hitPoints (manimal, staminaModifier, hitPointAdjustPerLevel(luckySign, luckModifier));
                       //return -1;
                   }], 
