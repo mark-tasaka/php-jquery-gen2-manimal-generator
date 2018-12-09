@@ -434,7 +434,7 @@
 			  </select>
                         
             <select id="mutations" class="dropdownmenuE1">
-				<option value="1"  selected>d3 PM, d2 MM&#42;&#42;</option>
+				<option value="1"  selected>d2 PM, 1 MM&#42;&#42;</option>
 				<option value="2">d4 PM, d3 MM&#42;&#42;</option>
 				<option value="3">d4 PM, d3 MM, d2 D&#42;&#42;</option>
 			  </select>

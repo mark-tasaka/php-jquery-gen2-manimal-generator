@@ -438,8 +438,9 @@
 		
   <script>
       
-      const NUMBER_OF_PHYSICAL_MUTATIONS = Math.floor(Math.random() * 3 + 1);
-      const NUMBER_OF_MENTAL_MUTATIONS = Math.floor(Math.random() * 2 + 1);
+      
+      const NUMBER_OF_PHYSICAL_MUTATIONS = Math.floor(Math.random() * 2 + 1);
+      const NUMBER_OF_MENTAL_MUTATIONS = 1;
       const NUMBER_OF_DEFECTS = Math.floor(Math.random() * 2 + 1);
 	  
 
@@ -521,7 +522,7 @@
             "bodyMutationDetails": getMutationDetails(arrPhysicalMutation),
             "mindMutationDetails": getMentalMutationDetails(arrMentalMutation),
             "defectMutationDetails": getDefectDetails(arrDefect),
-			"dieRollMethod": "3d6 ability scores, d3 physical mutations, d2 mental mutations, no defects"
+			"dieRollMethod": "3d6 ability scores, d2 physical mutations, 1 mental mutations, no defects"
 	
 		};
         
